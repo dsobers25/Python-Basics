@@ -25,7 +25,7 @@ for i in result_4:
 
 
 # filter will accept a function as its first parameter and a sequence for 
-# the 2nd param. If the result of the fuction invokaction is true the it will be 
+# the 2nd param. If the result of the fuction invocaction is true the it will be 
 # returned
 even_numbers = filter(lambda k : k % 2 == 0, range(1, 101))
 # print out elements of even_numbers sequence

@@ -29,4 +29,10 @@ print("\n\n")
 for i in range(1,101):
     if(i % 2 == 0):
         print("Implementation #4 %d" % i)
-    
+
+print("\n\n")
+
+##5 Implementation #5
+even = filter(lambda x: x % 2 == 0, range(1,101))
+for i in even:
+    print("Implementation #5 %d" % i)
